@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color:#39B150 ;
+}
+#wrapper{
+	
+	margin:0;
+	padding:0;
+	background-color: #E6E6FA;
+	
+}
+#header{
+	height:75px;
+	background-color:#39B150;
+	padding: 10px;
+	
+}
+#container{
+	
+	background-color:#E6E6FA;
+	height:450px;
+}
+#footer{
+	height:100px;
+	background-color:#09509E;
+}
+#footer h2{
+	text-align:center;
+}
+#form1{
+	padding-right:50px;
+	line-height:100px;
+	float:right;
+}
+#form1 input{
+	width:200px;
+	height:25px;
+}
+#form1 button{
+	height:25px;
+}
+#create_account{
+	font-size:30px;
+}
+#birthday{
+	font-size:20px;
+}
+.sign_up_table input{
+	height:20px;
+	font-size:20px;
+	width:300px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#sign_up{
+	font-size:20px;
+	background-color:#39B150;
+	color:#E6E6FA;
+}
+#sign_up:hover{
+	
+	background-color:green;
+	
+}
+#login_button{
+	font-size:15px;
+	background-color:#39B150;
+	color:#E6E6FA;
+}
+#login_button:hover{
+	
+	background-color:green;
+}
+#diu_image{
+	float:left;
+	padding:0;
+	margin:0;
+}
+#form_container{
+	float:right;
+}

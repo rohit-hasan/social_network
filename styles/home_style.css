@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	
+	background-color:#E6E6FA ;
+}
+#wrapper{
+	
+	margin:0;
+	padding:0;
+	background-color: #E6E6FA;
+	
+}
+#header{
+	height:35px;
+	background-color:#39B150;
+	padding: 10px;
+	border-bottom:2px solid brown;
+	
+	
+}
+#menu{
+	line-height:35px;
+	padding:0;
+	color:#E6E6FA;
+	float: right;
+	text-decoration:none;
+        padding-right: 100px;
+}
+#menu li{
+	display:inline;
+	color:#E6E6FA;
+	margin:5px;
+	
+}
+#menu a{
+	color:#E6E6FA;
+	text-decoration:none;
+	
+}
+#menu a:hover{
+	color:brown;
+	font-weight:bold;
+}
+#container{
+	
+	background-color:#E6E6FA;
+	height:450px;
+}
+#form1{
+	padding-left:120px;
+	float:left;
+        padding-top: 10px;
+}
+.content{
+    width:1000px;
+    margin:0 auto;
+    
+}
+#user_timeline{
+    background: #08809e;
+    width: 250px;
+    height:600px;
+    float:left;
+}
+#user_details{
+    padding:5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+#user_details img{
+    border:2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+#user_details p{
+    padding: 5px;
+}
+#user_details a{
+    color: brown;
+    font-size: 20px;
+    text-decoration: none;
+}
+#user_details a:hover{
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#user_mention{
+    border:2px solid black;
+    border-radius: 15px;
+    background: #e6e6fa;
+    margin: 10px;
+}
+#user_status input{
+    border:1px solid black;
+    border-radius: 5px;
+}
+#user_status textarea{
+    border:1px solid black;
+    border-radius: 5px;
+}
+#user_status input:hover,textarea:hover{
+    background-color: #FFF8DC;
+}
+#content_timeline{
+    float:right;
+    width:700px;
+    padding:10px;
+}
+#posts{
+    width:600px;
+    background: #AFEEEE;
+    padding:10px;
+    line-height: 20px;
+    border:1px solid black; 
+    text-align: justify;
+    
+}
+#posts p{
+  
+    word-wrap: break-word;
+    
+}
+#posts img{
+    float:left;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+#posts button:hover{
+    color:black;
+}
+#pagination{
+    margin-top:20px;
+}
+#pagination a{
+    color:blue;
+    text-decoration:none;
+    font-size:18px;
+    margin:5px;
+}
+#pagination a:hover{
+    color:brown;
+    font-weight: bold;
+}
+#reply textarea{
+    padding:8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight:bolder;
+}
+#reply input{
+    padding:8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight:bolder;
+}
+#reply input:hover{
+  background-color:yellow;
+}
+#comments{
+    padding:5px;
+    width:600px;
+    background-color: #fddfdf;
+    border:1px solid black;
+    border-radius:5px;
+    
+}
+#comments span{
+    color:#3399ff;
+}
+#members_pagination a{
+    text-decoration: none;
+}
+#members_pagination a:hover{
+    color:brown;
+    font-weight: bolder;
+}
+#search_result img{
+    height:50px;
+    width:50px;
+}
+#search_result a{
+    text-decoration: none;
+}
+#search_result a:hover{
+    font-weight:bolder;
+    color:brown;
+}
+.edit_profile input{
+	height:20px;
+	font-size:15px;
+	width:200px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.edit_profile button{
+	font-size:15px;
+	border: 1px solid black;
+	border-radius: 5px;
+        
+}
+.edit_profile button:hover{
+    color:brown;
+    font-weight:bolder;
+}
+.edit_profile input[type='file']{
+	width:200px;
+        background-color: white;
+}
+#upload_image input[type='file']{
+    width:200px;
+    background-color: white;
+}
+#upload_image input{
+    height:20px;
+	font-size:15px;
+	width:300px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#upload_image button{
+    font-size:15px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#upload_image button:hover{
+    color:brown;
+    font-weight:bolder;
+}
+#user_profile{
+    width:600px;
+    height:250px;
+    background-color: #f4a641;
+    border:1px solid black;
+    border-radius: 5px;
+}
+#user_profile button{
+     font-size:15px;
+    border:1px solid black;
+    border-radius: 5px;
+}
+#user_profile button:hover{
+    color:brown;
+    font-weight:bolder;
+}
+#user_profile img{
+    float: right;
+}
+#msg{
+    padding:10px;
+    line-height:20px;
+    background:pink;
+    margin:0 auto;
+    
+}
+#msg th{
+    border:3px solid green;
+    background: white;
+}
+#msg table,td{
+    padding:10px;
+}
+#msg a{
+    color:blue;
+    text-decoration: none;
+    font-size: 18px;
+}
+#msg a:hover{
+    color:brown;
+    font-weight:bold;
+}
